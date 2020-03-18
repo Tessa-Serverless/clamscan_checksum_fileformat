@@ -67,7 +67,7 @@ then
                 checkfileformat $arg1
         fi
 else
-        echo "$md5_all is not present"
+        echo "md5_all.dat file is not present"
 fi
 rm -rf $md5_all.tmp
 }
