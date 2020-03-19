@@ -69,7 +69,7 @@ then
 else
         echo "md5_all.dat file is not present"
 fi
-rm -rf $md5_all.tmp
+#rm -rf $md5_all.tmp
 }
 
 sudo clamscan -r --bell -i $Unscannedfolder  >> /var/log/clamav/scan_summary/scan_logs.txt
