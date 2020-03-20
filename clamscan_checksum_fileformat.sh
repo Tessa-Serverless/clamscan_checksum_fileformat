@@ -16,7 +16,7 @@ if [ 0 -lt $var2 ]
 then
 echo "Files are in format fg.gz. Calling perl script to rename the files"
 #rename all files and move to renamed_data
-OUTDIR=$SEARCH_FOLDER"_renamed_data"
+#OUTDIR=$SEARCH_FOLDER"_renamed_data"
 #echo $OUTDIR
 #echo "Call perl script"
 perl "$WORKSPACE/rename.pl" $SEARCH_FOLDER $OUTDIR > cp.cmd
